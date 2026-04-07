@@ -3,7 +3,7 @@ FakeX-Till-YouAI helps AI beginners learn in public by turning daily AI digests 
 
 ## Inspiration
 
-This project was inspired by Zara Zhang’s digest workflow and especially her `follow-builders` skill.
+This project was inspired by Zara Zhang’s digest workflow and especially her `follow-builders` skill. (https://github.com/zarazhangrui/follow-builders)
 
 Many thanks to Zara for building and sharing a digest system that makes this downstream workflow possible.
 
@@ -58,7 +58,7 @@ The agent only generates final post copy. The user copies and posts manually.
 ## Requirements
 
 - a daily digest source
-- strongly recommended: Zara Zhang’s `follow-builders` skill
+- strongly recommended: Zara Zhang’s `follow-builders` skill (https://github.com/zarazhangrui/follow-builders)
 - X API credentials if using full automatic mode
 
 ## Notes
