@@ -1,9 +1,15 @@
 # FakeX-Till-YouAI
 FakeX-Till-YouAI helps AI beginners learn in public by turning daily AI digests into thoughtful X post drafts. Borrowing the spirit of “fake it till you make it,” it encourages users to post before they feel fully ready, sharpen their thinking through output, and grow an AI IP as confidence catches up with curiosity.
 
-## What it does
+## Inspiration
 
-This skill handles the posting layer after a daily digest is generated.
+This project was inspired by Zara Zhang’s digest workflow and especially her `follow-builders` skill.
+
+Many thanks to Zara for building and sharing a digest system that makes this downstream workflow possible.
+
+## What this skill does
+
+This skill handles the posting layer after a digest is generated.
 
 It helps users:
 
@@ -13,11 +19,15 @@ It helps users:
 - publish manually or automatically to X
 - schedule selected posts at custom times
 
+## Important
+
+This skill is **not** a standalone digest generator.
+
+It needs to be used **together with a digest source** in order to fully work.
+
+It can work with many kinds of daily digests, but it is **strongly recommended** to use it together with Zara Zhang’s `follow-builders` skill.
+
 ## Intended workflow
-
-This skill is designed to work **after** a digest tool, such as Zara Zhang’s `follow-builders` skill.
-
-Typical flow:
 
 1. A digest is generated
 2. FakeX-Till-YouAI turns that digest into post drafts
@@ -48,7 +58,7 @@ The agent only generates final post copy. The user copies and posts manually.
 ## Requirements
 
 - a daily digest source
-- optionally, Zara Zhang’s `follow-builders` skill
+- strongly recommended: Zara Zhang’s `follow-builders` skill
 - X API credentials if using full automatic mode
 
 ## Notes
